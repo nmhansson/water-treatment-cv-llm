@@ -26,11 +26,13 @@ Create virtual environment for backend and frontend
   2) pip install -r water-treatment-cv-llm/frontend-requirements.txt
 
 - 1. Create React app
+  
   cd water-treatment-cv-llm
   npx create-react-app water-treatment-frontend
   cd water-treatment-frontend
 
 - 2. Install dependencies
+  
   npm install lucide-react
   npm install -D tailwindcss postcss autoprefixer
   npx tailwindcss init -p
