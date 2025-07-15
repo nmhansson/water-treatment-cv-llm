@@ -1,3 +1,4 @@
+![app-screenshot](https://github.com/user-attachments/assets/98876000-16bf-4954-ae6b-d5106d20b6bc)
 # water-treatment-cv-llm
 An example of a computer vision monitoring app with a LLM frontend built in Python.
 
