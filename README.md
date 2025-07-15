@@ -12,7 +12,7 @@ The frontend provides a monitoring interface (built with tailwind css for a nice
 
 React Frontend (localhost:3000) <br>
        ↕ HTTP API calls <br>
-FastAPI Backend (localhost:8000)  <br>
+FastAPI Backend (localhost:8000)  
        ↕ Processes <br>
 LLM Parser + Mask R-CNN Simulator <br>
 
@@ -27,15 +27,15 @@ Create virtual environment for backend and frontend
 
 - 1. Create React app
   
-  cd water-treatment-cv-llm
-  npx create-react-app water-treatment-frontend
-  cd water-treatment-frontend
+  * cd water-treatment-cv-llm  
+  * npx create-react-app water-treatment-frontend
+  * cd water-treatment-frontend
 
 - 2. Install dependencies
   
-  npm install lucide-react
-  npm install -D tailwindcss postcss autoprefixer
-  npx tailwindcss init -p
+  * npm install lucide-react
+  * npm install -D tailwindcss postcss autoprefixer
+  * npx tailwindcss init -p
   
 ## Backend
   1) conda create -n back-end python=3.9
