@@ -38,21 +38,20 @@ Create virtual environment for backend and frontend
   * npx tailwindcss init -p
   
 ## Backend
-  1) conda create -n back-end python=3.9
-  2) pip install -r water-treatment-cv-llm/water-treatment-cv-backend/requirements.txt
+  * conda create -n back-end python=3.9
+  *  pip install -r water-treatment-cv-llm/water-treatment-cv-backend/requirements.txt
   
   
 - put Anthropic API key in .env file
 
-
 - Start frontend:
-  1) cd water-treatment-cv-llm/water-treatment-cv-frontend/src
-  2( conda activate frontend	  
-  3) npm run start
+  * cd water-treatment-cv-llm/water-treatment-cv-frontend/src
+  * conda activate frontend	  
+  * npm run start
 
 - Start backend:
-  1) cd water-treatment-cv-llm/water-treatment-cv-backend
-  2) uvicorn main:app --reload --host 0.0.0.0 --port 8000
+  * cd water-treatment-cv-llm/water-treatment-cv-backend
+  * uvicorn main:app --reload --host 0.0.0.0 --port 8000
 
 
 ##
